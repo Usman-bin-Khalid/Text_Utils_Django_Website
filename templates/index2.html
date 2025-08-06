@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Templates</title>
+</head>
+<body>
+ <h1> Welcome to text analyzer. Enter your text below</h1>
+ <form action="/analyze" method="get">
+  <textarea style="width: 637px; height: 127px;" name="text"></textarea><br>
+  <input type="checkbox" name="removepunc">Remove Punctuation<br>
+  <input type="checkbox" name="fullcaps">UPPERCASE<br>
+  <input type="checkbox" name="newlineremover">New Line Remover<br>
+  <input type="checkbox" name="extraspaceremover">Extraspaceremover<br>
+  <button type="submit">Analye Text</button>
+ </form>
+
+</body>
+</html>
