@@ -20,5 +20,5 @@ It’s a handy tool for quick text cleanup and formatting tasks.
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Usman-bin-Khalid/Text_Utils_Django_Website
+   git clone https://github.com/Usman-bin-Khalid/Text_Utils_Django_Website.git
    cd TextUtils
